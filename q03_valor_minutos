@@ -1,0 +1,10 @@
+# Entrada   
+# Leia um valor em minutos, calcule e escreva o equivalente em horas e minutos
+valor_minutos = float(input('Digite o valor em minutos: '))
+
+# Processamento
+valor_horas = valor_minutos // 60
+valor_minutos_restantes = valor_minutos % 60
+
+# Saída
+print(f'> O valor de {valor_minutos} minutos equivale a {int(valor_horas)} horas e {valor_minutos_restantes} minutos')

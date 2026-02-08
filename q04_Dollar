@@ -1,0 +1,9 @@
+# Entrada
+# Leia o valor do dólar e um valor em dólares, calcule e escreva o equivalente em reais
+valor_dolar = float(input('Digite o valor do dólar: '))
+valor_dolares = float(input('Digite o valor em dólares: '))
+
+# Processamento
+valor_reais = valor_dolar * valor_dolares
+# Saída
+print(f'> O valor de {valor_dolares} dólares equivale a {valor_reais} reais')
