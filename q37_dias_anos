@@ -1,0 +1,9 @@
+#entrada
+anos_dias = int(input("digite a idade em dias:"))
+#processamento
+anos = anos_dias // 365
+dias_restantes = anos_dias % 365
+meses = dias_restantes // 30
+dias = dias_restantes % 30
+#saida
+print(f"A idade de {anos_dias} dias corresponde a {anos} anos, {meses} meses e {dias} dias restantes.")
